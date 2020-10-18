@@ -1,0 +1,203 @@
+* {
+  margin: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-image: url("./media/galaxy.jpg");
+  height: 120px;
+}
+
+h1 {
+  font-size: medium;
+}
+.home img{
+  width: 60%;
+ margin-top: 75px;
+ margin-bottom: 75px;
+}
+.navBar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+.movie_list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  border: 2px solid greenyellow;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter input {
+  margin-left: 10px;
+}
+
+label {
+  margin-left: 10px;
+  color: #2BCD41;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.categories {
+  font-size: large;
+}
+
+.categories input {
+  margin: 10px;
+}
+
+.posts {
+  width: 400px;
+  margin: 1px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postsPicture img {
+  border-radius: 10px;
+  height: 550px;
+  border: solid 5px wheat;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff, 0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+}
+
+.next button {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 170px;
+  font-weight: bolder;
+  background-color: transparent;
+  color: black;
+  font-size: large;
+  box-shadow: 0px 0px 20px #00ccff, inset 0px 0px 20px #00ccff, 0px 0px 60px #ff00c8, inset 0px 0px 60px #00ffff;
+}
+.imgDelete img{
+  margin: 40px;
+}
+#searchMovie {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: black;
+  color: wheat;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.footer{
+  height:  140px;
+}
+.footer img{
+  width: 60px;
+  margin: 20px;
+}
+.search input{
+  font-size: xx-large;
+  margin-top: 10px;
+  margin-bottom: 260px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 375px){
+
+  .search input{
+    width: 200px;
+    font-size: medium;
+  }
+  .header{
+     height: 220px;
+  }
+  .filter{
+    height: 240px;
+
+  }
+  .postsPicture img{
+    width: 250px;
+    margin: auto;
+  }
+  .footer img{
+    width: 30px;
+  }
+}
+@media (max-width: 414px){
+  .search input{
+    width: 200px;
+    font-size: medium;
+  }
+  .header{
+     height: 220px;
+  }
+  .filter{
+    height: 240px;
+
+  }
+  .postsPicture img{
+    width: 250px;
+    margin: auto;
+  }
+  .footer img{
+    width: 30px;
+  }
+}
+@media (max-width: 768px){
+
+  .header{
+     height: 220px;
+  }
+  .filter{
+    height: 240px;
+
+  }
+  .footer img{
+    width: 40px;
+  }
+}
