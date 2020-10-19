@@ -13,7 +13,6 @@ function MovieList() {
   const [categories, setCategories] = useState("movie");
   const [page, setPage] = useState(1);
   const [genre, setGenre] = useState("");
-   console.log(process.env.REACT_APP_API_KEY)
 
   let image = `https://image.tmdb.org/t/p/w400`;
   useEffect(() => {
